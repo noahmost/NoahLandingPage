@@ -1,7 +1,13 @@
 div{
     border-style: solid;
-    border-width: 3px;
-    
+    border-width: 5px;
+    padding: 20px;
+}
+.container{
+    border-color: blue;
+}
+.row{
+    border-color: red;
 }
 .blackbox{
 /*    background-color: black;*/

@@ -1,7 +1,9 @@
 div{
-    border-style: solid;
-    border-width: 3px;
-    
+/*    border-style: solid;
+    border-width: 3px;*/
+}
+body{
+    background-image: url('blacktriangles.png');
 }
 .blackbox{
 /*    background-color: black;*/
@@ -11,10 +13,19 @@ div{
     margin: 240px 0px 0px 0px;
     text-align: center;
     font-size: 100px;
+    color: rgba(251, 17, 0, 0.8);
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+    font-family: 'Oswald', sans-serif;
 }
 .line{
     margin: 30px 0px 0px 220px;
     width: 900px;
+    border-style: solid;
+    border-width: 3px;
 }
 .links{
    margin-top: 50px;
@@ -22,11 +33,30 @@ div{
    text-align: center;
    font-size: 50px;
    width: 700px;
+   border-style: double;
+    border-width: 8px;
+    color: rgba(251, 17, 0, 0.8);
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+    font-family: 'Oswald', sans-serif;
 }
 a{
     text-decoration: none;
 }
-a:visited { text-decoration: none; color:black; }
-a:hover { text-decoration: none; color:red; }
-a:focus { text-decoration: none; color:black; }
-a:hover, a:active { text-decoration: none; color:red }
+a:visited { text-decoration: none; color: rgba(251, 17, 0, 0.8);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;; }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color: rgba(251, 17, 0, 0.8);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;; }
+a:hover, a:active { text-decoration: none; color:blue }

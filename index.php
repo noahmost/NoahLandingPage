@@ -7,6 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
+        <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
         <link type="text/css" rel="stylesheet" href="index.css">
 <!--        <link type="text/css" rel="stylesheet" href="bootstrap.min.css">
         <link type="text/css" rel="stylesheet" href="bootstrap.css">-->
