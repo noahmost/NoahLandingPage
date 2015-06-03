@@ -3,27 +3,17 @@
         <meta charset="UTF-8">
         <link type="text/css" rel="stylesheet" href="main.css">
         <link type="text/css" rel="stylesheet" href="bootstrap.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
         <link type="text/css" rel="stylesheet" href="bootstrap.css">
         <title>Noah Landing Page</title>
     </head>
-    <body>
-        <div class='container'>
-            <p>container</p>
-            <div class='row'>
-                <p>row</p>
-                <div class='col-xs-12 name'> Contact Me</div>
-                <div class='col-xs-12'><p>column 12 line</p></div>
-                <div class='col-xs-4'><p><a href='index.php'>column 4 Index Link</a></p></div>
-                <div class='col-xs-4'><p><a href='projects.php'>column 4 Project Link</a></p></div>
-                <div class='col-xs-4'><p><a href='contact.php'>column 4 Contact Link</a></p></div>
-            </div>
-            <div class='row'>
-                <p>row</p>
-                <div class='col-xs-9'> column 9 adress forms</div>
-                <div class='col-xs-3'> column 3</div>
-            </div>
-            
-        </div>
+    <body class="bbody">
+         <div class="namebox">Contact Me</div>
+        <div class="line2"></div>
+        <div class="links"><a href="index.php" style="text-decoration: none">Home</a> <a href="projects.php" style="text-decoration: none">Projects</a> <a href="contact.php" style="text-decoration: none">Contact Me</a></div>
+        <div class="contactlink"><address>
+       Email: <a href="https://mail.google.com/mail/u/1/?tab=wm" style="text-decoration: none"> noahmostacero@gmail.com</a>
+</address></div>
     </body>
 </html>
 <?php

@@ -26,6 +26,7 @@ body{
     width: 900px;
     border-style: solid;
     border-width: 3px;
+    background-color: black;
 }
 .links{
    margin-top: 50px;
@@ -41,6 +42,7 @@ body{
     2px -2px 0 #000,
     -2px 2px 0 #000,
     2px 2px 0 #000;
+    padding: 10px;
     font-family: 'Oswald', sans-serif;
 }
 a{
@@ -60,3 +62,85 @@ a:focus { text-decoration: none; color: rgba(251, 17, 0, 0.8);
     -1px 1px 0 #000,
     1px 1px 0 #000;; }
 a:hover, a:active { text-decoration: none; color:blue }
+
+
+
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 1024px) {
+/* .bod{
+        background-image: url('../background/triangular.png');
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        font-size: 100px;
+        color:black;
+        padding-top: 20%;
+   }
+    #box{
+        background-image: url('../background/tweed.png');
+        width:400px;
+        margin:0 auto;
+        background-color: white;
+        color: black;
+}   */
+body{
+    background-image: url('blacktriangles.png');
+}
+.blackbox{
+/*    background-color: black;*/
+/*    opacity: 0.1;*/
+}
+.namebox{
+    margin: 240px 0px 0px 0px;
+    text-align: center;
+    font-size: 200px;
+    color: rgba(251, 17, 0, 0.8);
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+    font-family: 'Oswald', sans-serif;
+}
+.line{
+    margin: 30px 0px 0px 50px;
+    width: 900px;
+    border-style: solid;
+    border-width: 3px;
+    background-color: black;
+}
+.links{
+   margin-top: 50px;
+   margin-left: 20px;
+   text-align: center;
+   font-size: 85px;
+   width: 1100px;
+   border-style: double;
+    border-width: 8px;
+    color: rgba(251, 17, 0, 0.8);
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:visited { text-decoration: none; color: rgba(251, 17, 0, 0.8);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;; }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color: rgba(251, 17, 0, 0.8);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;; }
+a:hover, a:active { text-decoration: none; color:blue }
+}
